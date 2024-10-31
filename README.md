@@ -39,9 +39,9 @@ We utilized a dataset comprising **36,280 records** of healthcare device work or
 Our RAG model was trained with **supervised learning techniques**, optimizing for deterministic SQL output. By focusing on recall, latency, and response consistency, the model is configured for accurate query handling in real-time.
 
 ### Performance Metrics
-- **Accuracy**: 96% on commonly queried terms
-- **Average Response Time**: Under 2 seconds
-- **Consistency**: Deterministic SQL response
+- **Accuracy**: more than 90% on commonly queried terms
+- **Average Response Time**: Under 5 seconds
+- **Consistency**: Having the same results with different fomatting only
 
 ## 🔍 Model and Chatbot Use Cases
 
@@ -104,7 +104,6 @@ Our long-term vision includes:
 │   ├── 02-Deploy-RAG-Chatbot-Model_WO.py
 │   ├── chain.py
 │   ├── rag_chain_config.yaml
-│   ├── 01-Data-Preparation.py
 │   └── results
 ├── README.md
 ```
