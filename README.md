@@ -24,7 +24,7 @@ The architecture employs a high-level RAG workflow:
 
 ### Tech Stack
 - **Languages**: Python, SQL
-- **Frameworks**: Databricks Unity Catalog, TensorFlow/PyTorch (LLM model)
+- **Frameworks**: Databricks Unity Catalog, MLlow/PyTorch (LLM model)
 - **Tools**: Databricks, SQL functions, RAG-specific configurations
 - **Cloud**: Databricks Cloud and integration with Salesforce API
 
@@ -98,18 +98,14 @@ Our long-term vision includes:
 ## 📁 Repository Structure
 
 ```plaintext
-├── data
-│   ├── raw
-│   └── processed
-├── config
-│   └── rag_chain_config.yaml
-├── notebooks
-│   ├── Data-Preparation.ipynb
-│   └── Model-Deployment.ipynb
-├── src
-│   ├── data_processing.py
-│   ├── deploy_chatbot.py
-│   └── chain.py
+├── llm-rag-chatbot
+│   ├── 01 - Data- Processing.py
+│   ├── 01-Data-Preparation.py
+│   ├── 02-Deploy-RAG-Chatbot-Model_WO.py
+│   ├── chain.py
+│   ├── rag_chain_config.yaml
+│   ├── 01-Data-Preparation.py
+│   └── results
 ├── README.md
 ```
 
