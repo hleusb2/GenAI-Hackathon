@@ -116,11 +116,3 @@ Our long-term vision includes:
 ## 👥 Contributors
 - **Hang Le** - Chatbot Design, Model Training, Codebase Documentation
 - **Brian Zavareh** - Data Processing
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a comprehensive guide to our project and highlights the innovation of our RAG-driven chatbot solution for healthcare work orders. Thank you for exploring our repository!
